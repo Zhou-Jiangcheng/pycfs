@@ -99,10 +99,4 @@ def plot_cfs_static(
 
 
 if __name__ == "__main__":
-    config = CfsConfig()
-    config.read_config('/home/zjc/python_works/pycfs/examples/example.ini')
-
-    cfs_plane6 = plot_cfs_static(config,
-                    ind_obs=9,
-                    sub_length_strike_km=2,
-                    sub_length_dip_km=2)
+    pass

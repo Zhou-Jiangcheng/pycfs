@@ -197,26 +197,4 @@ def plot_dynamic_coulomb_stress_one_time_point(
 
 
 if __name__ == "__main__":
-    plot_dynamic_coulomb_stress_one_time_point(
-        n_t=35,
-        srate=1,
-        elev=30,
-        azim=-70,
-        path_input='/home/zjc/e/layercfs/t_py/input',
-        path_output='/home/zjc/e/layercfs/t_mat/output',
-        obs_inds=[6, 7, 8],
-        obs_shapes=[[12,16], [12,16], [20,16]],
-        show=True,
-    )
-
-    # plot_dynamic_coulomb_stress_one_time_point(
-    #     n_t=35,
-    #     srate=1,
-    #     elev=30,
-    #     azim=-70,
-    #     path_input='/home/zjc/e/layercfs/t_mat/input',
-    #     path_output='/home/zjc/e/layercfs/t_mat/output',
-    #     obs_inds=[9],
-    #     obs_shapes=[[46,16]],
-    #     show=True,
-    # )
+    pass
